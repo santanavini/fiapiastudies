@@ -1,11 +1,12 @@
 print('Bem Vindo ao MISO, Seu programa para cultivo de milho ou soja Digital!')
-#Aqui é o menu 1
+#Menu 1
 print('-----------Menu-------------')
 
 print('1. Informações sobre cultivo de milho')
 print('2. Informações sobre cultivo de soja')
 print('3. Sair') #aqui é a opção de sair
 #daqui para baixo possui loop para a função de menu
+# Cálculo de área e dados de plantio
 while True:
     cultivo = input('Escolha uma opção: ')
     if cultivo == "1":
