@@ -7,6 +7,7 @@ print('2. Informações sobre cultivo de soja')
 print('3. Sair') #aqui é a opção de sair
 #daqui para baixo possui loop para a função de menu
 # Cálculo de área e dados de plantio
+# Menu para escolha de opções
 while True:
     cultivo = input('Escolha uma opção: ')
     if cultivo == "1":
